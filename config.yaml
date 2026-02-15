@@ -1,0 +1,12 @@
+data:
+  symbol: "ETHUSDT"
+  interval: "1h"
+  start_time: "2024-01-01"
+  end_time: "2024-12-31"
+
+strategy:
+  atr_SL_mult: 1.8
+  atr_TP_mult: 2.4
+  risk_pct: 0.01
+  fee_rate: 0.001
+  initial_equity: 10000.0
