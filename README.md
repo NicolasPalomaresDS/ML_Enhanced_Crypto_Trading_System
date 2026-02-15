@@ -14,7 +14,7 @@ whether a given strategy signal is likely to result in a profitable
 trade, based on historical outcomes.
 
 ## Documentation
----
+
 📄 **[Full Project Report (PDF)](./ML_Enhanced_Crypto_Trading_System.pdf)**
 
 Technical documentation covering:
@@ -25,7 +25,7 @@ Technical documentation covering:
 - Limitations and future improvements
 
 ## Directory Structure
----
+
 ```
 trading-bot/   
 │
@@ -74,7 +74,7 @@ trading-bot/
 ```
 
 ## Requirements
----
+
 You can install the necessary libraries by running the `requirements.txt` included 
 in the project using the following command:
 
@@ -94,7 +94,7 @@ venv\Scripts\activate        # Windows
 ```
 
 ## Usage
----
+
 The system provides two execution modes that operate independently:
 
 ### 1. Full Backtesting Suite
@@ -159,7 +159,7 @@ python -m src.run_live
 - Each mode downloads/processes its own data as needed
 
 ## Jupyter Notebooks
----
+
 ### Model Building Notebook
 
 Trains the XGBoost trade filter model. **Can be run independently** without any prior 
@@ -206,7 +206,7 @@ python -m src.run_backtest
 ```
 
 ## Quick Start Examples
----
+
 ### First-time Setup and Full Exploration
 
 ```bash
@@ -237,7 +237,7 @@ python -m src.run_live
 ```
 
 ## Expected Console Output
----
+
 ### Backtest Output (sample)
 
 ```
@@ -303,7 +303,7 @@ Total Trades:      70
 ```
 
 ## Data Source
----
+
 Historical market data is retrieved from the **Binance API** using the public 
 `/api/v3/klines` endpoint.
 
