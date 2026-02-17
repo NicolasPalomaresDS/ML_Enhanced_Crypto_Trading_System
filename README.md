@@ -75,14 +75,14 @@ trading-bot/
 
 ## Requirements
 
-You can install the necessary libraries by running the `requirements.txt` included 
-in the project using the following command:
+First, clone this repository to your local machine:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/NicolasPalomaresDS/ML_Enhanced_Crypto_Trading_System.git
+cd ML_Enhanced_Crypto_Trading_System
 ```
 
-It is also recommended to create a virtual enviroment for dependencies management:
+Then, it is recommended to create a virtual enviroment for dependencies management:
 
 ```bash
 # Crete virtual enviroment
@@ -91,6 +91,13 @@ python -m venv venv
 # Activate
 source venv/bin/activate     # Linux/macOS
 venv\Scripts\activate        # Windows
+```
+
+Finally, you can install the necessary libraries by running the `requirements.txt` 
+included in the project using the following command:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
